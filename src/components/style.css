@@ -1,0 +1,119 @@
+* {
+  background: rgb(248, 239, 239);
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+.header-box {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  background-color: #fff;
+}
+.selectAll-button {
+  width: 60px;
+  border: 0px solid;
+  opacity: 0.2;
+}
+.check-box {
+  height: 20px;
+  width: 20px;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+.input-placeholder {
+  padding: 16px 16px 16px 19px;
+  border: none;
+  background: #fff;
+  opacity: 0.8;
+  box-shadow: inset 0 -2px 1px rgb(0 0 0 / 7%);
+  font-size: 30px;
+}
+.complete {
+  color: #777;
+  text-decoration: line-through;
+}
+.close-button {
+  visibility: hidden;
+}
+.inComplete:hover .close-button,
+.close-button:hover {
+  visibility: inherit;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  font-size: 25px;
+  background: #fff;
+  color: red;
+}
+.inComplete {
+  border: 1px solid white;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  height: auto;
+  min-width: 30vw;
+  font-size: 30px;
+  color: #777;
+}
+.footer-box {
+  border: 1px solid white;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  padding: 10px 14px;
+  height: 25px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+.clear-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  font-size: 15px;
+  background: #fff;
+  color: #696969;
+}
+.todo-item li {
+  background-color: white;
+  word-break: break-all;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  inline-size: 35vw;
+  height: fit-content;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.clear-button:hover {
+  text-decoration: underline;
+}
+
+.footer-all-active-complete-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  font-size: 15px;
+  background: #fff;
+  color: #696969;
+}
